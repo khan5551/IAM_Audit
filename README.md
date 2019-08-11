@@ -1,5 +1,5 @@
 # IAM_Audit
-1. For Auditing IAM Users you need following 
+1. For Auditing IAM Users from Multiple AWS Account you need following 
 2. You need Access and Secrect Key 
 3. You need a ReadOnly Role - This can be Local Role or Cross Account Role 
 4. Replace with your Role in ( readonly ; Line no 203 ) :- RoleArn='arn:aws:iam::'+accno+':role/readonly'

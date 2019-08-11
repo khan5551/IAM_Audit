@@ -3,7 +3,7 @@
 2. You need Access and Secrect Key 
 3. You need a ReadOnly Role - This can be Local Role or Cross Account Role 
 4. Replace with your Role in ( readonly ; Line no 203 ) :- RoleArn='arn:aws:iam::'+accno+':role/readonly'
-5. Execute as  :-  python IAMAudit_v3.py  inputConfig.ini 
+5. Execute as  :-  python IAMAudit_v3.py    inputConfig.ini 
 6. IAMAudit_v3.py :– Contains the Code 
 7. inputConfig.ini :-  Contains list of AWS accounts to be scanned for IAM details  +  Your Access Key and Secret Key  ( Just replace with    your Keys and Your AWS Accounts – Rest shouldn’t be modified )
 8. Note :- You should have necessary permissions to scan IAM in all AWS accounts 

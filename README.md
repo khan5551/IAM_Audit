@@ -9,7 +9,7 @@
 8. Note :- You should have necessary permissions to scan IAM in all AWS accounts 
 9. Output :- This will generate three types of Excel sheets ) 
 10. IAMAudit.Xlsx  (   Provide details of all accounts in One Tab ;  ++ details of Individual accounts from second Tab 
-11. Output with following details \
+11. Output with following details - \
 a) Account Number	\
 b) Account Name	\
 c) User name \
